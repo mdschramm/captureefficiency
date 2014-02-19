@@ -1,0 +1,45 @@
+#blurbs {
+    height: 60px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 20px;
+     }
+
+     path {
+         stroke: #000fff;
+         stroke-width: 1;
+         fill: none;
+         }
+
+         path.current, path.highlight.current {
+             stroke: #000;
+             stroke-width: 2;
+         }
+
+
+.x.axis line {
+    stroke: black;
+ }
+
+ .x.axis .minor {
+     stroke-opacity: .5;
+ }
+
+ .x.axis path {
+    stroke: #e2e2e2;
+    stroke-width: 0.7;
+    fill: none; 
+ }
+
+ .y.axis line, .y.axis path {
+     fill: none;
+     stroke: #000;
+ } 
+ text {
+     font-family: Arial;
+     font-size: 9pt;
+ }
+
+ ol {
+     list-style-type: none;
+ }
+
